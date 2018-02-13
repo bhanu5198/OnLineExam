@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html data-ng-app="myApp">
+<head>
+    <title>Online Exam Portal Manager</title>
+    <link href="bootstrap.min.css" rel="stylesheet" />
+    <link href="bootstrap-responsive.min.css" rel="stylesheet" />
+    </head>
+<body>
+
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="brand " href="#/">
+                    <img src="people.png" alt="logo"> Online Exam Login Form.
+                </a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+<div id='content' data-ng-controller='LoginController'>
+	<div class="container">
+		<form class="form-signin" role="form" ng-submit="login()">
+	<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+			<div><b>UserName :</b>&nbsp; <input type="text" name="username" 	ng-model="username" required> </div> <br>
+			<div><b>Password :</b>&nbsp; <input type="password" name="password"  ng-model="password" required> </div> 
+			<br>
+			<button type="submit">
+				<b>Sign in</b>
+			</button>
+		</form>
+	</div>
+</div>
+
+<div id="footer">
+        <div class="navbar navbar-fixed-bottom">
+            <div class="navbar-inner">
+                <div class="container">
+                    <footer>
+                        <div class="row">
+                            <div class="span4">
+                                Twitter: <a href="https://twitter.com/hit_consulting?lang=en">#HitachiTwitter</a>
+                            </div>
+                            <div class="span4">
+                                FaceBook: <a href="https://www.facebook.com/HitachiConsulting/">@HitachiFB</a>
+                            </div>
+                            <div class="span4">
+                                WebSite: <a href="http://www.hitachiconsulting.com/">Hitachi.com</a>
+                            </div>
+                        </div>
+                   </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="test.js"></script>
+    </body>
+</html>
