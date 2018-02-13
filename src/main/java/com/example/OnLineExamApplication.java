@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class OnLineExamApplication {
 
 	public static void main(String[] args) {
+		
+		//hi
 		SpringApplication.run(OnLineExamApplication.class, args);
 	}
 }
